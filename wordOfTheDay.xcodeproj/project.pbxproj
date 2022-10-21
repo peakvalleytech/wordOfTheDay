@@ -16,6 +16,7 @@
 		5338CDC72902743A00C9F222 /* wordOfTheDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CDC62902743A00C9F222 /* wordOfTheDayTests.swift */; };
 		5338CDD12902743A00C9F222 /* wordOfTheDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CDD02902743A00C9F222 /* wordOfTheDayUITests.swift */; };
 		5338CDD32902743A00C9F222 /* wordOfTheDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CDD22902743A00C9F222 /* wordOfTheDayUITestsLaunchTests.swift */; };
+		5338CDE229027A5000C9F222 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CDE129027A5000C9F222 /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5338CDCC2902743A00C9F222 /* wordOfTheDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordOfTheDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5338CDD02902743A00C9F222 /* wordOfTheDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordOfTheDayUITests.swift; sourceTree = "<group>"; };
 		5338CDD22902743A00C9F222 /* wordOfTheDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordOfTheDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5338CDE129027A5000C9F222 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		5338CDAF2902743800C9F222 /* wordOfTheDay */ = {
 			isa = PBXGroup;
 			children = (
+				5338CDE029027A2300C9F222 /* codable */,
 				5338CDB02902743800C9F222 /* wordOfTheDayApp.swift */,
 				5338CDB22902743800C9F222 /* ContentView.swift */,
 				5338CDB42902743A00C9F222 /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				5338CDD22902743A00C9F222 /* wordOfTheDayUITestsLaunchTests.swift */,
 			);
 			path = wordOfTheDayUITests;
+			sourceTree = "<group>";
+		};
+		5338CDE029027A2300C9F222 /* codable */ = {
+			isa = PBXGroup;
+			children = (
+				5338CDE129027A5000C9F222 /* Word.swift */,
+			);
+			path = codable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 			files = (
 				5338CDBA2902743A00C9F222 /* Persistence.swift in Sources */,
 				5338CDBD2902743A00C9F222 /* wordOfTheDay.xcdatamodeld in Sources */,
+				5338CDE229027A5000C9F222 /* Word.swift in Sources */,
 				5338CDB32902743800C9F222 /* ContentView.swift in Sources */,
 				5338CDB12902743800C9F222 /* wordOfTheDayApp.swift in Sources */,
 			);
