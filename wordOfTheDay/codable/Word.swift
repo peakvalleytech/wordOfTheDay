@@ -8,5 +8,5 @@
 import Foundation
 
 struct Word : Codable {
-    let value : String
+    let word : String
 }
